@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Cabinet | Furniture Manufacturers</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">Premium Cabinet</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>18 Years of Excellence in Cabinet Making & Furniture Manufacturing</h1>
+    <p>Premium Cabinet – Crafting Durable, Functional & Stylish Spaces</p>
+    <a href="#contact" class="btn">Get a Quote</a>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About Premium Cabinet</h2>
+  <p>
+    Premium Cabinet is a professional furniture manufacturing company specializing in
+    custom cabinet making, wardrobes, wall units, and modern storage solutions.
+    With over 18 years of industry experience, we deliver quality craftsmanship,
+    durability, and elegant designs across Ghana.
+  </p>
+</section>
+
+<section id="services" class="services">
+  <h2>Our Services</h2>
+  <div class="service-grid">
+    <div class="service-card">Custom Kitchen Cabinets</div>
+    <div class="service-card">Wardrobes & Closets</div>
+    <div class="service-card">TV Units & Wall Panels</div>
+    <div class="service-card">Office Furniture</div>
+    <div class="service-card">Furniture Repairs & Renovation</div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <h2>Our Work</h2>
+  <div class="portfolio-grid">
+    <img src="https://via.placeholder.com/400x300">
+    <img src="https://via.placeholder.com/400x300">
+    <img src="https://via.placeholder.com/400x300">
+    <img src="https://via.placeholder.com/400x300">
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Premium Cabinet</h2>
+  <p>Let’s Build Your Dream Cabinets</p>
+  <p>📍 Tsokome Street, P.O.Box MP1047 Mamprobi, Accra</p>
+  <p>📞 +233 243 030 584 / +233 509 578 571</p>
+  <p>📧 okleteysolomont@gmail.com</p>
+
+  <form action="https://formspree.io/f/yourformid" method="POST" class="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message"></textarea>
+    <button class="btn">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Premium Cabinet. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
